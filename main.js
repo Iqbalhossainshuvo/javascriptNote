@@ -59,7 +59,8 @@ var friendsAge = [11, 32, 45, 56, 76, 54, 85 ]
 
 //  change array Element by index 
 // console.log(friendsName[5]); 
-//  var element = friendsName[5];  কোন কিছু change করতে হলে পথমে element লিখতে হবে । তারপর ঐ element এর নাম এবং position সংখ্যা লিখতে হবে, তারপর ঐ position টা লিখে সমান চিহ্ন এর পর যেই জিনিস টা দিয়ে পরিবর্তন করতে চায় সেটা লিখে দিবে।
+//  var element = friendsName[5];  কোন কিছু change করতে হলে পথমে element লিখতে হবে । তারপর ঐ element এর
+//  নাম এবং position সংখ্যা লিখতে হবে, তারপর ঐ position টা লিখে সমান চিহ্ন এর পর যেই জিনিস টা দিয়ে পরিবর্তন করতে চায় সেটা লিখে দিবে।
 // friendsName[5]= 'saiful';
 
 // console.log(friendsName);
@@ -129,7 +130,8 @@ PS C:\javascript>  */
 // console.log(5 >= 6); ৫ ৬ থেকে বড় বা সমান কিনা  
 // var iphonePrice = 79000; এখানে ১ = মানে variable এর মান টা সেট করা
 // Shorthand: +=, -=, ++, --
-// var iphonePrice += 7; এখানে  += মানে variable ( iphonePrice +=  7 মানে var iphonePrice = 79000+7 =79007 ) এর মান টার সাথে ১ এর অদিক নাম্বার যোগ করা 
+/*  var iphonePrice += 7; এখানে  += মানে variable ( iphonePrice +=  7 মানে var iphonePrice = 79000+7 =79007 ) এর মান টার 
+সাথে ১ এর অদিক নাম্বার যোগ করা  */
 // var iphonePrice -= 5; এখানে  -= মানে variable এর মান টার সাথে ১ এর অদিক নাম্বার বিয়োগ করা 
 // var iphonePrice ++ 1; এখানে  ++ মানে variable এর মান টার সাথে 1 এটাকে যোগ করা 
 // var iphonePrice ++ 1; এখানে  -- মানে variable এর মান টার সাথে 1 এটাকে বিয়োগ করা 
@@ -207,7 +209,8 @@ else{
     console.log('buy anything')
 } */
 
-// else if দিয়ে অনেক গুলো Array এর মান বের করা যায় । else if এর কাজ হল সব গুলো কে দরে দরে চেক করা এবং যেটা সত্য হবে সেটাকে  output দেখাবে । যদি কোনটাই সত্য না হয় তাহলে else য়ে এসে output করে দিবে ।
+// else if দিয়ে অনেক গুলো Array এর মান বের করা যায় । else if এর কাজ হল সব গুলো কে দরে দরে চেক করা এবং যেটা সত্য হবে সেটাকে  output দেখাবে ।
+//  যদি কোনটাই সত্য না হয় তাহলে else য়ে এসে output করে দিবে ।
 
 
 
@@ -310,9 +313,11 @@ else{
 while (roastGiven < 7){   ROAST টা দেওয়া হবে মানুষ যদি ৭ জন বা তার কম থাকে ,এটা হল সর্ত ।
     console.log('roast Dicce, Please !!')  যখন roast দিবে তখন এটা output হবে।
     roastGiven = roastGiven + 1; প্রত্যেক মানুষ কে যে ROAST দিচ্ছি তার সংখ্যা ১ করে বাড়বে যতক্ষণ পজন্ত মানুষ কে ROAST দেওয়া শেষ না হবে
-    যখন ROAST দেওয়া শেষ হবে তখন কয়টা ROAST দেওয়া হয়েচে তা দেখতে পাব। আর যেহেতু WHILE এর মাজে সংখ্যা ৭ দেওয়া আছে তাহলে ROAST দেওয়া ৭ পজন্ত গিয়ে থেমে যাবে।
+    যখন ROAST দেওয়া শেষ হবে তখন কয়টা ROAST দেওয়া হয়েচে তা দেখতে পাব। 
+    আর যেহেতু WHILE এর মাজে সংখ্যা ৭ দেওয়া আছে তাহলে ROAST দেওয়া ৭ পজন্ত গিয়ে থেমে যাবে।
     আর ROAST কয়টা দেওয়া হয়েছে তা গণনা করা হয় এই ৩ টার যে কোন ১ টা দিয়ে 
-   1=> roastGiven(এটা হল ROAST এর টোটাল সংখ্যা) = roastGiven(এটা হল ROAST দেওয়া এর টোটাল সংখ্যা) + 1 (এটা হল ROAST দেওয়া এর টোটাল সংখ্যার সাথে ১ যোগ করে ১ টা করে বাড়বে, এভাবে ১ করে বাড়তে থাকবে যতক্ষণ ROAST দিতে থাকবে।); 
+   1=> roastGiven(এটা হল ROAST এর টোটাল সংখ্যা) = roastGiven(এটা হল ROAST দেওয়া এর টোটাল সংখ্যা) + 1 (এটা হল ROAST দেওয়া এর টোটাল সংখ্যার
+     সাথে ১ যোগ করে ১ টা করে বাড়বে, এভাবে ১ করে বাড়তে থাকবে যতক্ষণ ROAST দিতে থাকবে।); 
    2=> roastGiven += 1 ;
    3=> roastGiven++;
 
@@ -383,7 +388,8 @@ for(var roastGiven = 0; roastGiven < 7 ; roastGiven++){
     console.log(i);
 } */
 
-// FOR LOOP টাকে PROGRAMMAR রা ছোট করে লেখার জন্য roastGiven এই টার পরিবর্তে i ব্যবহার করে । যত জায়গায় (roastGiven এটা variable এর নাম ) আছে, তত জায়গায় i বসবে।
+// FOR LOOP টাকে PROGRAMMAR রা ছোট করে লেখার জন্য roastGiven এই টার পরিবর্তে i ব্যবহার করে । 
+// যত জায়গায় (roastGiven এটা variable এর নাম ) আছে, তত জায়গায় i বসবে।
 // এটাই হল FOR LOOP এর শট VERSION  
 
 /* var number = 0;
@@ -407,7 +413,9 @@ for(var number = 0; number <= 20; number = number + 2 ){ // var number += 2; এ
 // var numbers = [45, 87, 89, 56, 32, 51, 25];
 
 /* for(var i = 0; i <= 7; i++ ){
-    console.log(i); এখানে সুধু উপরের array এর indexOf number টা বের হয়েছে , নিচের OUTPUT য়ে দেখতে পাচ্ছি। যদি আমরা indexOf number গুলো না দেখে ঐ array গুলো কে দেখতে চাই,তাহলে আমরা ঐ loop এর ভিতেরে আরেক টা variable নিব, এবং তার মাজে আমরা indexOf এর numbers গুলো কে বের করব, তারপর ঐ variable এর নাম টাকে console.log() এর মাজে বসিয়ে দিব।
+    console.log(i); এখানে সুধু উপরের array এর indexOf number টা বের হয়েছে , নিচের OUTPUT য়ে দেখতে পাচ্ছি। যদি আমরা indexOf number গুলো 
+    না দেখে ঐ array গুলো কে দেখতে চাই,তাহলে আমরা ঐ loop এর ভিতেরে আরেক টা variable নিব, 
+    এবং তার মাজে আমরা indexOf এর numbers গুলো কে বের করব, তারপর ঐ variable এর নাম টাকে console.log() এর মাজে বসিয়ে দিব।
 
 }
 
@@ -427,7 +435,8 @@ PS C:\javascript> */
 var numbers = [45, 87, 89, 56, 32, 51, 25];
 
 for(var i = 0; i < 7; i++){
-    var number = numbers[i]; নতুন variable indexOf এর মান বের করার জন্য , indexOf number এর মান গুলো দরে দরে ঐ number variable টা array এর সংখ্যা গুলো কে OUTPUT দেখাবে।
+    var number = numbers[i]; নতুন variable indexOf এর মান বের করার জন্য ,
+     indexOf number এর মান গুলো দরে দরে ঐ number variable টা array এর সংখ্যা গুলো কে OUTPUT দেখাবে।
     console.log(number); 
 }
 
@@ -443,7 +452,8 @@ PS C:\javascript> node main.js
 PS C:\javascript> */
 
 
-/* এতক্ষণ আমরা শর্ত দিয়ে arrray থেকে নির্দিষ্ট সংখ্যা বের করেছি, যদি আমরা array থেকে সব গুলো items কে বের করতে চাই , তাহলে array এর length বের করতে হবে , আর এটা করার জন্য ঐ শর্তের ভিতরেই array এর নাম ডট length(array.length) বসিয়ে দিব। */
+/* এতক্ষণ আমরা শর্ত দিয়ে arrray থেকে নির্দিষ্ট সংখ্যা বের করেছি, যদি আমরা array থেকে সব গুলো items কে বের করতে চাই ,
+ তাহলে array এর length বের করতে হবে , আর এটা করার জন্য ঐ শর্তের ভিতরেই array এর নাম ডট length(array.length) বসিয়ে দিব। */
 
 /* var numbers = [45, 87, 89, 56, 32, 51, 25, 188, 200,450];
 
@@ -850,8 +860,10 @@ PS C:\javascript> node main.js
 10.8
 PS C:\javascript>  */
 
-/* random সংখ্যা বের করা যায় Math.random() দিয়ে ,এটা পথমে float number য়ে থাকে (০.১৫৬৪৯৮৫৬৪৮৭৯৪) এমন , এবার ০.১৫৬৪৯৮ এটা থেকে যদি ১৫.৬৪৮৫৬ এমন করতে চাই তাহলে Math.random()
-কে যে কোন সংখ্যা দিয়ে গুন করতে হবে, তারপর সংখ্যা টা ১৫.৬৪৮৫৬ এমন আসবে , এই সংখ্যা টাকে এবার পুণ্য সংখায় আনার জন্য Math.round(এখানে Math.random() এর variable টা বসিয়ে দিব) , তাহলে এমন আসবে ১৫ ।
+/* random সংখ্যা বের করা যায় Math.random() দিয়ে ,এটা পথমে float number য়ে থাকে (০.১৫৬৪৯৮৫৬৪৮৭৯৪) এমন , 
+এবার ০.১৫৬৪৯৮ এটা থেকে যদি ১৫.৬৪৮৫৬ এমন করতে চাই তাহলে Math.random()
+কে যে কোন সংখ্যা দিয়ে গুন করতে হবে, তারপর সংখ্যা টা ১৫.৬৪৮৫৬ এমন আসবে , 
+এই সংখ্যা টাকে এবার পুণ্য সংখায় আনার জন্য Math.round(এখানে Math.random() এর variable টা বসিয়ে দিব) , তাহলে এমন আসবে ১৫ ।
 
 Math.random() কে যদি ৪ সংখ্যা ওয়ালা সংখ্যা দিয়ে গুন করি তাহলে Random সংখাটা ৩ সংখার আসবে। */
 
@@ -874,7 +886,8 @@ var result = Math.round(number);
  var returnedValu = functionName(parameters valu); এভাবে   */
 
 
-// function এর নামের পর Parentheses () ব্যবহার করতে হবে{এবং এটার বিতরে variable এর মত কিছু লিখতে হবে এরপর এটাকে কল করার সময় কোন ১ টা মান দিতে হবে } এর পর curly brackets {} ব্যাবহার করতে হবে , এবং {} এটার ভিতরে কোড লিখতে হবে 
+// function এর নামের পর Parentheses () ব্যবহার করতে হবে{এবং এটার বিতরে variable এর মত কিছু লিখতে হবে 
+// এরপর এটাকে কল করার সময় কোন ১ টা মান দিতে হবে } এর পর curly brackets {} ব্যাবহার করতে হবে , এবং {} এটার ভিতরে কোড লিখতে হবে 
 /* 
 function buySigngara(taka variable এর মত কিছু লিখলাম ){
     console.log('mama singara den')
@@ -886,7 +899,8 @@ console.log('now signgara') */
 
 
 
-/* কোন function কে যেখান থেকে কল করা হবে সেটার বাম পাশে কোন variable থাকলে ঐ function এর return এরপর যা লেখা থাকবে সেটার মান টা ঐ variable  মান হয়ে যাবে 
+/* কোন function কে যেখান থেকে কল করা হবে সেটার বাম পাশে কোন variable থাকলে ঐ function এর return এরপর যা লেখা থাকবে
+ সেটার মান টা ঐ variable  মান হয়ে যাবে 
 
 
 function add(num1 , num2){
