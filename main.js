@@ -559,11 +559,11 @@ PS C:\javascript> */
 /* Harry’s mom gave him money and asked him to buy some oranges and apples. Write a program to 
 help Harry calculate how much money the shopkeeper will return. */
 
-var moneyGiven = 1000;
-var orange = 400;
-var apple = 300;
+// var moneyGiven = 1000;
+// var orange = 400;
+// var apple = 300;
 
-var totalPrice = orange + apple;
+// var totalPrice = orange + apple;
 // console.log(totalPrice);
 
 // OUTPUT TOTAL expens
@@ -583,17 +583,17 @@ Bangla of a student. 75.25, 65, 80, 35.45, 99.50
  */
 
 
-var Mathematics = 75.25;
-var Biology = 65;
-var Chemistry = 80; 
-var Physics = 35.45;
-var Bangla = 99.50;
+// var Mathematics = 75.25;
+// var Biology = 65;
+// var Chemistry = 80; 
+// var Physics = 35.45;
+// var Bangla = 99.50;
 
-var totalMarks = Mathematics + Biology + Chemistry + Physics + Bangla;
+// var totalMarks = Mathematics + Biology + Chemistry + Physics + Bangla;
 // console.log(totalMarks);
-var average = totalMarks /5;
+// var average = totalMarks /5; 
 // console.log(average);
-var averageTwoDeciml = average.toFixed(2);
+// var averageTwoDeciml = average.toFixed(2);
 // console.log(averageTwoDeciml);
 
 
@@ -618,8 +618,8 @@ PS C:\javascript>  */
 remainder would be if she divided the number by 5. Help Sarah write the program. এখানে REMAINDER হল ভাগ শেষ। */
 
 
-var number = 199;
-var remainder = number % 5;
+// var number = 199;
+// var remainder = number % 5;
 // console.log(remainder);
 
 /* OUTPUT remainder
@@ -641,8 +641,8 @@ You are given an array:
 
         // Find the index of ‘Banana’
 
-var fruits = ['Apple', 'Banana', 'Orange' ]
-var bananaIndex = fruits.indexOf('Banana');
+// var fruits = ['Apple', 'Banana', 'Orange' ]
+// var bananaIndex = fruits.indexOf('Banana');
 // console.log(bananaIndex);
 
 // OUTPUT INDEX OF BANANA 
@@ -653,8 +653,8 @@ PS C:\javascript>  */
 
 // replace ‘Banana’ with ‘Mango’
 
-var fruits = ['Apple', 'Banana', 'Orange' ]
-fruits[1] = 'Mango'
+// var fruits = ['Apple', 'Banana', 'Orange' ]
+// fruits[1] = 'Mango'
 // console.log(fruits);
 
 
@@ -667,8 +667,8 @@ PS C:\javascript>  */
 
 // Remove ‘Orange’ 
 
-var fruits = ['Apple', 'Banana', 'Orange' ]
-fruits.pop();
+// var fruits = ['Apple', 'Banana', 'Orange' ]
+// fruits.pop();
 // console.log(fruits);
 
 // UOTPUT REMOVE ORANGE 
@@ -751,9 +751,9 @@ Isosceles => two sides are equal */
 largest number using if-else. */
 
 
-var num1 = 13;
-var num2 = 79;
-var num3 = 45;
+// var num1 = 13;
+// var num2 = 79;
+// var num3 = 45;
 
 /* if(num1 > num2){
     if(num1 > num3){
@@ -779,9 +779,9 @@ PS C:\javascript>  */
 triangle is Isosceles or not using if-else.
 Isosceles => two sides are equal */
 
-var side1 = 9;
-var side2 = 8;
-var side3 = 9;
+// var side1 = 9;
+// var side2 = 8;
+// var side3 = 9;
 /* 
 if( side1 == side2 || side1 == side3 || side2 == side3 ){
     console.log('isosceles')
@@ -867,8 +867,8 @@ PS C:\javascript>  */
 
 Math.random() কে যদি ৪ সংখ্যা ওয়ালা সংখ্যা দিয়ে গুন করি তাহলে Random সংখাটা ৩ সংখার আসবে। */
 
-var number = Math.random() * 100000;
-var result = Math.round(number);
+// var number = Math.random() * 100000;
+// var result = Math.round(number);
 
 // console.log(result);
 
@@ -952,20 +952,20 @@ object এর মাজে প্রত্যেকটা key/property:value জ
 
 //  Object হল অনেক গুলো variable এর সমষ্টি বা যে কোন কিছুর অনেক গুলো বৈশিষ্ট্য 
 
-var mobile = {
-    brand : 'iPhone',
-    price : 79000,
-    storage : '64gb',
-    camera : '50MP'
-}
+// var mobile = {
+//     brand : 'iPhone',
+//     price : 79000,
+//     storage : '64gb',
+//     camera : '50MP'
+// }
 
-var myComputer = {
-    brand : 'Hp',
-    price : 85000,
-    color : 'silver',
-    processor : 'i5'
+// var myComputer = {
+//     brand : 'Hp',
+//     price : 85000,
+//     color : 'silver',
+//     processor : 'i5'
 
-}
+// }
 
 // console.log(myComputer , mobile);
 //  আর নির্দিষ্ট কোন property বের করতে হলে object এর Name ডট ঐ property এর নাম 
@@ -973,7 +973,7 @@ var myComputer = {
 // console.log(mobile.price);
 // আবার কোন কিছু change করতে চাইলে Object এর Name ডট propert এর নাম সমান যা change করতে চায় তা লিখবে ।
  
-myComputer.color = 'green';
+// myComputer.color = 'green';
 
 // Object এর কোন ১ টা property এর নাম পেতে চাই তাহলে এটা পাওয়ার জন্য ৩ ভাবে করতে পারি, আবার এই  ৩ বাবে property এর নাম change করতে পারি।
 
@@ -988,14 +988,14 @@ myComputer.color = 'green';
 // Object এর সব গুলো property/ value কে পাইতে চাইলে Object এর Name ডট keys (তার পর এটার ভিতরে ঐ Object এর নাম দিতে হবে ,জার সব গুলো value পাইতে চায়)
 
 // var properties = Object.keys(myComputer); আর keys দারা Object এর properties গুলো দিবে 
-const keys = Object.keys(myComputer);
+// const keys = Object.keys(myComputer);
 // console.log(properties);
 /* PS C:\javascript> node main.js
 [ 'brand', 'price', 'color', 'processor' ]
 PS C:\javascript> */ 
 
 // var propertiesValue = Object.values(myComputer); values এর দারা Object এর value গুলো দিবে
-const values = Object.values(myComputer);
+// const values = Object.values(myComputer);
 /* console.log(propertiesValue);
 
 PS C:\javascript> node main.js
@@ -1005,16 +1005,16 @@ PS C:\javascript>  */
 
 // property আর value ২ টা একসাথে পেতে চাইলে loop চালাইতে পারি
 
-var myComputer = {
-    brand : 'Hp',
-    price : 85000,
-    color : 'silver',
-    processor : 'i5'
-}
+// var myComputer = {
+//     brand : 'Hp',
+//     price : 85000,
+//     color : 'silver',
+//     processor : 'i5'
+// }
 
-for (var i = 0; i < keys.length; i++ ){
-    // console.log(keys[i]);
-}
+// for (var i = 0; i < keys.length; i++ ){
+//     // console.log(keys[i]);
+// }
 
 /* OUTPUT 
 PS C:\javascript> node main.js
@@ -1431,7 +1431,7 @@ PS C:\javascript>  */
     
     /* সব গুলো নাম্বার কে ঐ odd array এর ভিতরে নেওয়ার জন্য return ব্যাবহার করতেছি
     যদি return ব্যাবহার না করি তাহলে ঐ oddNumber Array টা ১ টা element কেই ঐ oddNumber array এর ভিতরে নিয়ে আর কোন element নিবে না। */
-}
+// }
 
 /* let myNumbers = [12, 65, 45, 78, 32, 45, 91];
 let oddNumbers = getOddNumberAnArray(myNumbers);
@@ -1474,34 +1474,222 @@ console.log(oddNumberSum);
 PS C:\javascript> */
 
 
+//  SOME Number যোগ  SOME Number যোগ   SOME Number যোগ   SOME Number যোগ  SOME Number যোগ 
+
+// 1+ 2 + 3 + 4 + 5 + 6 + 7 
+/* let sum = 0;
+for(i = 1; i <= 7 ; i++){
+    sum = sum + i;
+    console.log(i, sum);
+} */
+
+// OUTPUT THIS SUM 
+/* PS C:\javascript> node main.js
+1 1
+2 3
+3 6
+4 10
+5 15
+6 21
+7 28
+PS C:\javascript>  */
 
+// এখন এই কাজ টাই  function য়ে করব 
+ 
+/* function sumOfNumbers(number){
+    let sum = 0;
+    for(i = 1; i <= number ; i++){
+        sum = sum + i;
+        
+    }
+    return sum;
+} 
 
+let sum = sumOfNumbers(9);
+console.log(sum); */
+
+
+// OUTPUT TOTAL SUM 
+/* PS C:\javascript> node main.js
+1 1
+2 3
+3 6
+4 10
+5 15
+6 21
+7 28
+8 36
+9 45
+45
+PS C:\javascript> node main.js */
 
 
 
 
 
+
+
+
 
+// গুন করা====================== যোগের ক্ষেত্রে sum variable এর মান ০ দিতে হবে আর গুন করার ক্ষেত্রে ০ এর জায়গায় ১ দিতে হবে ।
+
+
+/* let sum = 1;
+for(i = 1; i <= 7 ; i++){
+    sum = sum * i;
+    console.log(i, sum);
+}
+return sum;
+ */
+// OUTPUT গুণ 
 
+/* PS C:\javascript> node main.js
+1 1
+2 2
+3 6
+4 24
+5 120
+6 720
+7 5040
+PS C:\javascript>  */
+
+
+// এখন এই কাজ টাই  function য়ে করব 
+
+/* function mulTiplicationOfNumber(number){
+    let multiplication = 1;
+    for(i = 1; i <= number ; i++){
+        multiplication = multiplication * i;
+        console.log(i, multiplication);
+    }
+    return multiplication;
+}
+
+let multiplication = mulTiplicationOfNumber(9);
+console.log(multiplication); */
+
+
+// OUTPUT OF MULTIPLICATION 
+
+/* PS C:\javascript> node main.js
+1 1
+2 2
+3 6
+4 24
+5 120
+6 720
+7 5040
+8 40320
+9 362880
+362880
+PS C:\javascript>  */
+
+
+
+
+
+
+// FACTORIAL  এটা হল গুণ করা আর এটাকে ! এই চিহ্ন দারা প্রকাশ করে , যেমন 4! মানে ৪ এর factorial বা গুন , আর এই গুন টা হয় 
+// এমন ভাবে ৪*৩*২*১  factorial হল ১ থেকে ঐ সংখ্যা পযন্ত গুন করা ।
+/* 
+function factorial(number){
+    let fact = 1;
+    for( let i = 1; i <= number; i++){
+        fact = fact * i;
+        console.log(i, fact);
+    }
+    return fact;
+}
 
+let multipliFactorial = factorial(9);
+console.log(multipliFactorial); */
 
+// OUTPUT OF FACTORIAL 
+/* PS C:\javascript> node main.js
+1 1
+2 2
+3 6
+4 24
+5 120
+6 720
+7 5040
+8 40320
+9 362880
+362880
+PS C:\javascript>  */
 
 
 
 
+// factorial revers 
 
+/* 
+function factorialRevers(number){
+    let reverFact = 1;
+    for(let i = number; i >= 1 ; i--){
+        reverFact = reverFact*i;
+        console.log(i);
 
+    }
+    return reverFact;
+}
 
+let reversFactorial = factorialRevers(9);
+console.log(reversFactorial); */
 
 
+// OUTPUT REVERS FACTORIAL 
+/* PS C:\javascript> node main.js
+9
+8
+7
+6
+5
+4
+3
+2
+1
+362880
+PS C:\javascript> */
 
+// WHILE LOOP FACTORIAL 
 
+/* function whilwFactorial(number){
+    let num = 1;
+    let result = 1;
+    while(num <= 9){
+        result = result * num;
+        num++;
+    }
+    return result;
+}
 
+whilefactorialNum = whilwFactorial(9);
+console.log(whilefactorialNum); */
 
+/* OUTPUT OF WHILE FACTORIAL 
+PS C:\javascript> node main.js
+362880
+PS C:\javascript>  */
 
+// REVERS WHILW FACTORIAL 
+/* function reversWhile(number){
+    let i = 9;
+    let result = 1;
+    while(i >= 1){
+        result = result * 1;
+        i--;
+    }
+    return result;
+}
 
 
+console.log(result); */
 
+/* OUTPUT 
+PS C:\javascript> node main.js
+14781
+PS C:\javascript>  */
 
 
 
@@ -1509,57 +1697,752 @@ PS C:\javascript> */
 
 
 
+// STRING ============================================
+/* STRING হল ARRAY এর মতই , তবে ARRAY যেমন বাহিরে থেকে change করা যায় , String টা সেভাবে change করা যায় না / String এর index এর মান টাকে change
+করা যায় না , সে জন্য String টাকে বলে (imutable).  */
 
+// /* String টা হল case sensetive ,এটা কে যদি ignore করে চাই ,তাহলে এমন কিছু ব্যবহার করবে variable এর সাথে 
 
+// toLowerCase = ছোট হাতের 
+// toUpperCase = বড় হাতের 
+// toLocale = লোকেশন অনুযায়ী  Upprecase / toLowerCase অক্ষর হওয়া 
+// startsWith = এটা দিয়ে সুরু হয়েছে কিনা
+// endsWith = শেষে এটা আছে কিনা   */
 
+// কোন কিছু খুজে পেলে output দিবে true ,আর খুজে না পেলে output দিবে false
 
+// USER NAME AND INPUT CHECK BY STRING 
+// const userName = 'blackPink'; /* আমি program য়ে set করেছি 'blackPink' */
+// const userInput = 'blackPinK'; /* আর visitore input করেছে 'blackPinK' এখানে শেষের অক্ষর বড় দিয়েছে  */
 
 
 
 
+// if (userName === userInput){/*  আর আমি শর্ত দিয়েছি , আমার program এবং visitore এর input যদি সমান হয় valid user , আর সমান না
+//     হলে invalid user , যেহেতু visitore এখানে K বড় হাতের লিখে ভুল করেছে তাই invalid user আসচে . এই সমস্যা থেকে বাচার জন্য 
+//      ২ টাকেই  ডট toLowerCase/ (userName.toLowerCase ==== userInput.toLowerCase) করে , এতে করে আমার program এবং visitore এর
+//      inpute কে ছোট হাতের অক্ষরে রূপান্তর করে check করবে ,এর পর output দেখাবে valid or invalid  */ 
+//     console.log('valid User');
+// }
+// else{
+//     console.log('invalid User')
+// }
 
+/* output 
+PS C:\javascript> node main.js
+invalid User
+PS C:\javascript> */
 
 
 
+/* const userName = 'blackPink';
+const userInput = 'blackPinK';
 
+if (userName.toLowerCase === userInput.toLowerCase){
+    console.log('valid User');
+}
+else{
+    console.log('invalid User')
+} */
+
+/* output 
+PS C:\javascript> node main.js
+valid User
+PS C:\javascript>  */
+
+
+
+// FIND ANYTHING IN STRING 
+
+// const গান = 'তুমি বন্দু কালা পাখি  আমি যেন কি  বসন্তের কুকিল তোমায় ভুলতে পারিনি';
+
+//             // এর থেকে কোন কিছু খোঁজ করব আছে কিনা ,থাকলে তাকে বের করব ,includes এর মানে হল ভিতরে আছে কিনা 
+//  const আছেকিনা = গান.includes('পাখি');
+//  console.log(আছেকিনা);
+
+/* const lyrics = 'Tome bondhu kala pakhi ami jeno ki . bosonto kale tomai bolte parini';
+        // এর থেকে কোন কিছু খোঁজ করব আছে কিনা
+const searchString = lyrics.includes('pakhi');
+console.log(searchString); */
+        
+// এটাকে অন্যভাবে করতে পারি 
+/* const lyrics = 'Tome bondhu kala pakhi ami jeno ki . bosonto kale tomai bolte parini';
+
+const find = ' pakhi'
+const searchString = lyrics.includes(find);
+console.log(searchString); */
+
+// এবার এটাকে case sensetive করার জন্য toLowercase / toUppercase ব্যবহার করলাম 
+
+// const lyrics = 'Tome bondhu kala pakhi ami jeno ki . bosonto kale tomai bolte parini';
+
+// const find = ' pakhi'
+// const doseExist = lyrics.includes('pahki');
+// const doseExist = lyrics.includes('Pahki');
+// const doseExist = lyrics.includes(find);
+// const searchString = lyrics.includes(find);
+// const lyricsCaseChange = lyrics.toLowerCase(); /* গান টার case ignore করলাম  */
+// const searchStringCaseChange = find.toLowerCase(); /* variable টার case ignore করলাম  */
+// const searchString = lyrics.includes(searchStringCaseChange); /* 2 টাকেই আরেক টা variable এর ভিতরে রাখলাম   */
+// const searchStringOneline = lyrics.toLowerCase().includes(find.toLowerCase()); /* উপরে যেই ৩ টা কাজ করলাম , ঐ ৩ টাকে ১ লাইনে নিয়ে আসলাম। */
+// console.log(searchString); /* ঐ ২ টার variable টাকে output করলাম */
+// console.log(searchStringOneline); /* ঐ ৩ টার variable টাকে output করলাম */
+
+// console.log(lyrics.indexOf('kala'));
+// output 
+/* PS C:\javascript> node main.js
+false
+true
+PS C:\javascript> */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// // INDEX OF STRING 
+//  /* কোন ১ টা item যদি String / Array এর মাজে থাকে তাহলে output দিবে indexOf number আর যদি না
+//  থাকে তাহলে output দিবে (-1) , লোকজন এটাকে function নে এই ভাবে করে  */
+// if(lyrics.includes('sada') !== -1){ /* শর্ত হল, -1 হবে না ,তার মানে ভিতরে আছে  */
+//     console.log('exists inside the string');
+// }
+// else{
+//     console.log('cannot find ');
+// }
+
+// STARTSWITH 
+// console.log(lyrics.startsWith('Tome')); /* মানে ঐ lyrics টা Tomi দিয়ে শুরু হয়েছে কিনা  */ 
+
+// ENDWITH 
+/* const fileName = 'mybiodata.pdf'
+const otherFile = 'mypic.png'
+fileName.endsWith('.pdf'); */
+
+
+
+// SPLIT = আলাদা করা / ভাগ করা 
+
+// const lyrics = 'Tome bondhu kala pakhi ami jeno ki . bosonto kale tomai bolte parini';
+
+// /* const parts = lyrics.split(' '); /* এখানে খালি speace দিয়ে ভাগ করেছে । word কে আলাদা করা  */
+// const sentences = lyrics.split('.'); /* এখানে ডট দিয়ে ভাগ করেছে  */
+// const charsDivid = lyrics.split(''); /* এখানে emty string দিয়ে ভাগ করেছে। chars  কে আলাদা করা */
+// console.log(parts, sentences, charsDivid); */
+
+// OUTPUT 
+/* PS C:\javascript> node main.js
+[
+  'Tome',    'bondhu',
+  'kala',    'pakhi',
+  'ami',     'jeno',
+  'ki',      '.',
+  'bosonto', 'kale',
+  'tomai',   'bolte',
+  'parini'
+] [
+  'Tome bondhu kala pakhi ami jeno ki ',
+  ' bosonto kale tomai bolte parini'
+] [
+  'T', 'o', 'm', 'e', ' ', 'b', 'o', 'n', 'd',
+  'h', 'u', ' ', 'k', 'a', 'l', 'a', ' ', 'p',
+  'a', 'k', 'h', 'i', ' ', 'a', 'm', 'i', ' ',
+  'j', 'e', 'n', 'o', ' ', 'k', 'i', ' ', '.',
+  ' ', 'b', 'o', 's', 'o', 'n', 't', 'o', ' ',
+  'k', 'a', 'l', 'e', ' ', 't', 'o', 'm', 'a',
+  'i', ' ', 'b', 'o', 'l', 't', 'e', ' ', 'p',
+  'a', 'r', 'i', 'n', 'i'
+]
+PS C:\javascript> */
+
+
+
+// SLICE BY INDEX / slice = কোন ১ টা অংশ কাটা ,আর এটা index এর মাদ্দমে করতে হয়। এটার ২ টা জিনিস থাকে start and end , কথায় থেকে সুরু হবে আর কথায় শেষ হবে তা বলে দিতে হবে ।
+// const lyrics = 'Tome bondhu kala pakhi ami jeno ki . bosonto kale tomai bolte parini';
+
+// const parts = lyrics.slice(5, 8);
+// const substringly = lyrics.substring(5, 8); /* substring হল এটা কথায় থেকে সুরু আর কথায় শেষ তা বের করার জন্য  */
+// const lTrim = lyrics.trim(5, 8); /* trim হল এটা থেকে সুরু থেকে  শেষ থেকে খালি speace দূর করার জন্য  */
+// const lconcat = lyrics.concat(',' , 'another'); /* concat হল জোড়া দেওয়া , কমা দিয়ে জোড়া দিয়ে  */
+// console.log(parts);
+// console.log(substringly);
+// console.log(lTrim );
+// console.log(lconcat );
+
+/* output
+PS C:\javascript> node main.js
+bon
+bon
+Tome bondhu kala pakhi ami jeno ki . bosonto kale tomai bolte parini
+Tome bondhu kala pakhi ami jeno ki . bosonto kale tomai bolte parini,another
+PS C:\javascript>   */
+
+
+// const lyrics = ['Tome bondhu kala pakhi ami jeno ki ',
+//    ' bosonto kale tomai bolte parini ',
+//     ' bosonto kale tomai bolte parini ',
+//      'bosonto kale tomai bolte parini']
+// const joinAlllyrics = lyrics.join(':'); /* JOIN দারা যে কোন String এর ভিতর যে কোন কিচু কে add করা যায়  */
+// console.log(joinAlllyrics);
+
+/* OUTPUT 
+PS C:\javascript> node main.js
+Tome bondhu kala pakhi ami jeno ki : bosonto kale tomai bolte parini : bosonto kale tomai bolte parini :bosonto kale tomai bolte parini
+PS C:\javascript>  */
+
+
+
+
+// MATH ============================================= 
+
+// const result = Math.pow(3,8);/*  pow হল পাওয়ার ,আমরা বলি না (3 দি পাওয়ার 8) */
+// console.log(result);
+
+/* OUTPUT 
+PS C:\javascript> node main.js
+6561
+PS C:\javascript>  */
+
+// const num1 = 25;
+// const num2 = 45;
+
+// const gap = Math.abs(num1 - num2); /*  abs হল সুদু মান নিবে  এটা positive মান নাকি negative তা নিবে না  */
+// console.log(gap);
+// // OUTPUT 
+// /* PS C:\javascript> node main.js
+// 20
+// PS C:\javascript> */
+// if(gap < 5){
+//     console.log('you guys can be fried');
+// }
+// else(
+//     console.log('you guys can not be  fried')
+// )
+
+// OUTPUT 
+/* PS C:\javascript> node main.js
+20
+you guys can not be  fried
+PS C:\javascript> */
+
+
+
+//  ROUND  পুণ্য সংখ্যা 
+
+/* const roundNumber = 2.568484;
+const fullRound = Math.round(roundNumber); /*  round হল পুণ্য সংখ্যা  */
+/* console.log(fullRound);
+output 
+PS C:\javascript> node main.js
+3
+PS C:\javascript>  */ 
+
+
+//  ceil / ceil হল ভগ্নাংশ সংখ্যা থেকে পুণ্য সংখায় করার সময় ঐ সংখ্যা টাকে (২.৫৬৮৪৮৪) ২ এর উপরের সংখায় দেখাবে
+//  floor / floor হল ভগ্নাংশ সংখ্যা থেকে পুণ্য সংখায় করার সময় ঐ সংখ্যা টাকে (২.৫৬৮৪৮৪) ২  সংখায় দেখাবে  উপরে দেখাবে না
+
+// const ceilNumber = 2.568484;
+// const fullceil = Math.ceil(ceilNumber); /*  ceil হল ভগ্নাংশ সংখ্যা থেকে পুণ্য সংখায় করার সময় ঐ সংখ্যা টাকে (২.৫৬৮৪৮৪) ২ এর উপরের সংখায় দেখাবে */
+// const fullfloor = Math.floor(ceilNumber); /*  floor হল ভগ্নাংশ সংখ্যা থেকে পুণ্য সংখায় করার সময় ঐ সংখ্যা টাকে (২.৫৬৮৪৮৪) ২  সংখায় দেখাবে  উপরে দেখাবে না */
+
+// console.log(fullRound);
+// console.log(fullfloor);
+// output 
+// PS C:\javascript> node main.js
+// 3
+// PS C:\javascript> 
+
+// output 
+// PS C:\javascript> node main.js
+// 2
+// PS C:\javascript>  
+
+
+/* REMP  */
+
+// let first = 5 ;
+// let second = 7;
+// console.log(first, second);
+// outout 
+/* PS C:\javascript> node main.js
+5 7
+PS C:\javascript>  */
+
+// মান টাকে variable য়ে অদল ভদল করা 
+// first = second;
+// second = first;
+
+// const temp = first;
+// first = second;
+// second = temp;
+// console.log(first , second);
+
+// approach : 2 Destructuring মানে  অদল ভদল করা  Object to Object / Array to Array 
+// [ first, second ] = [ second , first ];
+//   console.log(first , second);
+// output 
+// PS C:\javascript> node main.js
+// 7 7
+// PS C:\javascript> 
+
+
+//MAX ========================== বড় number বের করা 
+// const jim = 84;
+// const dela = 75;
+// const cinko = 65;
+//  if(jim > dela){
+//     console.log('jim will get the cake ');
+//  }
+//  else{
+//     console.log('dela will get the cake')
+//  }
+
+// if(jim > dela && jim > cinko){
+//     console.log('jim will get cake ')
+// }
+// else if ( dela > jim && dela > cinko){
+//     console.log('dela will get cake ');
+// }
+// else{
+//     console.log('cinko will get cake ')
+// }
+
+// এটাকে Math.max দিয়ে করা যায় max = বড় min = ছোট 
+// Math.max(12, 52,78, 45, 58, 48, 796);
+
+// outout 
+/* PS C:\javascript> node main.js
+jim will get the cake 
+PS C:\javascript> */
+
+
+// hight / সব চেয়ে লম্বা / বড় কে তা বের করা 21 ar 7 number video
+
+/* function maxInArray (numbers){
+// console.log(number);
+let largest = numbers[0];
+for( let i = 0; i < numbers.length; i++ ){
+   
+    const index = i;
+    const element = numbers[index];
+    // console.log(element);
+    if(element > largest){
+        largest = element;
+    }
+}
+return largest;
+}
+
+const heights = [ 167, 190, 120, 165, 137];
+const tallest = maxInArray(heights);
+console.log(tallest);
+ */
+/* output 
+PS C:\javascript> node main.js
+190
+PS C:\javascript>  */
+ 
+/* function reversString(text){
+     for( let i = 0; i < text.length; i++){
+        const element = text[i];
+        console.log(element);
+     }
+} */
+// const myString = 'I am a good boy';
+// const reversed = reversString(myString);
+
+// ঐ  loop টাকে উল্টা করব 8 min
+// function reversString(text){
+//     for( let i = text.length-1 /* এখানে (i = text.lenght) সমান ছোট না
+//      , এটা কে ছোট করার জন্য (-1) ব্যাবহার করা হয়েছে */ ; i >= 0; i--){ 
+//        const element = text[i];
+//        console.log(element);
+//     }
+// }
+
+//  loop টাকে যোগ করব
+
+// function reversString(text){
+//     let addRebers = '';
+//     for( let i = text.length-1; i >= 0; i--){
+//        const element = text[i];
+//        addRebers = addRebers + element;
+//        console.log(element, addRebers);
+//     }
+//     return addRebers;
+// }
+
+// function revrsWord(str){
+//     const words = str.split(' ');
+//     console.log(words);
+// }
+
+// উল্টা করব 
+// function revrsWord(str){
+//     const words = str.split(' ');
+//     const result = [];
+//     for(let i = words.length -1; i >= 0; i--){
+//         const element = words[i];
+//         result.push(element);
+//     }
+//     const reversed = result.join(' ');
+//     console.log(words);
+//     console.log(result);
+//     console.log(reversed);
+//     return reversed;
+// }
+
+// const myString = 'I am a good boy';
+// const reversed = revrsWord(myString);
+
+
+// fiboancci 
+
+/* fiboancci হল ২ সংখ্যার যোগ ফল হয়ে ৩ নাম্বার সংখ্যা নির্ণয় করা 
+ ০, ১, ১, ২, ৩, ৫, ৮, ১৩, ২১, ৩৪, ৫৫, ৮৯, ১৪৪ 
+ এটাও বলা যায় যে কোন সংখ্যার পূর্বের ২ টি সংখার যোগফল ,যদি এখানে যদি ৩ কে দরি তাহলে হবে
+  ২ + ১ ,২ এবং টার পূর্বের সংখ্যা ১ মিলে ৩ হয়েছে। এটাকে ইংরেজির মাদ্দমে এই ভাবে লিখা হয় n = (n-1) + (n-2) = 3
+  এখানে n টাকে অজানা ১ টা সংখ্যা দরা হয়েছে , (n-1) করে n পূর্বের সংখ্যা বের করেছে, (n-2) করে (n-1) এর পূর্বের সংখ্যা বের করেচে ,
+  এভার এই ২ সংখার (n-1 n-2) এর যোগ করা হয়েছে । */
+
+//   আর এই fiboancci এটা বের করতে হলে ২ টি সংখ্যা লাগবে ,২ টি সংখ্যা চাড়া এটা কাজ করতে পারবেনা তাই program মে প্রথমে ২ টি সংখ্যা call করেছি
+
+// const fibo = [0, 1];
+// for(let i = 2; i <= 15; i++){ /* এখানে  i = 2 দেওয়ার মানে হল পূর্বের ২ টি সংখার যোগ ফল ২,  */
+//     const element = [i];
+//     fibo[i] = fibo[ i - 1 ] + fibo[i - 2];/*  এখানে i = 2 এর মান দিয়েছি ,এখন fibo এর ভিতরে i এর জায়গায় হবে ২ ,আর ২ থেকে ১ বাদ দিলে থাকবে ১, আর ২- ২ করলে হবে ০ ,এভার ০ আর ১ যোগ করলে হবে ০
+//     এই ভাবে এই i মান টা বাড়তে থাকবে যতক্ষণ ১৫ পজন্ত না যাবে  */
+//     console.log( element);
+// }
+// console.log( fibo);
+
+/* output 
+
+PS C:\javascript> node main.js
+[ 2 ]
+[ 3 ] এগুলো হল element 
+[ 4 ]
+[ 5 ]
+[ 6 ]
+[ 7 ]
+[ 8 ]
+[ 9 ]
+[ 10 ]
+[ 11 ]
+[ 12 ]
+[ 13 ]
+[ 14 ]
+[ 15 ]
+[
+    0,   1,   1,   2,  3,  5,
+    8,  13,  21,  34, 55, 89, আর এগুলো হল fibo 
+  144, 233, 377, 610
+]
+PS C:\javascript>
+ */
+
+
+
+
+
+
+
+
+
+
+// some problem solve ==========================================================================================================
+// const country = 'bangladesg ';
+// const age = 52;
+// const isIndepended = true;
+// const student = {id: 121, class: 11, name: 'Agun'};
+// const friends = [ 13, 14, 11, 17, 16, 15, 20 ];
+// function add (num1, num2){
+//     return num1+ num2;
+// }
+
+// console.log(typeof country); /* string */
+// console.log(typeof age); /* number */
+// console.log(typeof isIndepended); /* boolean */
+// console.log(typeof student); /* object */
+// console.log(typeof friends); /* object */
+// // chack array using Array.isArray =====================================
+// console.log(Array.isArray (friends)); /* true */
+// //find anything in array ==============================================
+// console.log( friends.includes(19)); /* false */
+// if(friends.indexOf(256) !== -1){
+
+// }
+// console.log(typeof add); /* function */
+
+// concat ba join kora =======================================================
+//  const newFriends = [12, 13, 11, 13, ];
+//  const allfriends = newFriends.concat(friends);
+//  console.log(allfriends);
+
+// slice কেটে পেলা / কোন ১ টা অংশ Array থেকে নেওয়া ===================== এটা করার পরও Array ঠিক থাকে  ========================================
+
+//const friends = [12, 45, 32, 44, 62, 29, 69, 87];
+
+//const partial = friends.slice(2, 5);
+//splice কোন কিচু Array থেকে remove করা ================ এটা করার পরও Array ঠিক থাকে না এবং এটার মাদ্দমে Array এর মাজে আরও মান insert করা যায়===========================================
+// const spliceFrinds = friends.splice(2, 5); /* index এর ২ থেকে ৫ পজন্ত সংখ্যা গুলো চাড়া বাকি গুলো কে remove করে যেই সংখ্যা গুলো ও খানে নাই সেগুলকে এই সংখার সাথে add করে নিবে */
+//const spliceFrindsAdd = friends.splice(2, 5, 99, 555, 7777); /* index এর ২ থেকে ৫ পজন্ত সংখ্যা গুলো চাড়া বাকি গুলো কে remove করে যেই সংখ্যা গুলো ও খানে নাই সেগুলকে এই সংখার সাথে add করে নিবে */
+// console.log(partial); /* [ 32, 44, 62 ] */
+// console.log(friends);/* [12, 45, 32, 44,62, 29, 69, 87] */
+// console.log(spliceFrinds); /* [ 32, 44, 62, 29, 69 ] */
+// console.log(friends);/* [ 12, 45, 87 ] */
+//console.log(spliceFrindsAdd); /* [ 32, 44, 62, 29, 69 ]*/
+//console.log(friends);/* [ 12, 45, 99, 555, 7777, 87 ]*/
+
+
+
+
+
+
+
+
+
+
+// duplicate অতিরিক্ত গুলো বের করে পেলে দেওয়া =================================================================
+// const names = ['abul', 'babul', 'cabul', 'dabul', 'ebul', 'abul', 'cabul', 'babul', 'ebul'];
+
+// function removeDuplicate(names){
+//     const unique = [];
+//     for(i = 0; i < names.length; i++){
+//         const name = names[i];
+//         console.log(name);
+//         if(unique.includes(name) === false){ /* এখানে শর্ত হল => আমরা খালি ১ টা Array নিয়েচি unique নাম দিয়ে । 
+//         এবার এটাকে .includes দিয়ে check করা সুরু করেছি name কে , যদি নাম টা unique Array তে থাকে তাহলে তা true হবে আর true হলে
+//          unique কে আর এটা push করবে না , আর যদি unique কে না থাকে নাম টা তাহলে তা false হবে ,এরপর false === false যখন মিলে যাবে 
+//          তখন unique য়ে নাম টা push করবে, এভাবে আমরা ১ টা Array থেকে অতিরিক্ত নাম গুলো কে পেল দিতে পারি/  */
+//             unique.push(name);
+//         }
+//     }
+//     return unique;
+// }
+
+// const uniqueName = removeDuplicate(names);
+// console.log(uniqueName);
+
+
+
+
+
+
+// DIBISIBLE =================================
+// ১ থেকে ৫০ পজন্ত output দেখাইতে গিয়ে যদি কোন ১ টা সংখ্যা  ৩ দিয়ে ভাগ জায় এবং ভাগশেষ না থাকে তখন ঐ সংখ্যা টা না দেখাইয়া দেখাব foo 
+// ১ থেকে ৫০ পজন্ত output দেখাইতে গিয়ে যদি কোন ১ টা সংখ্যা  5 দিয়ে ভাগ জায় এবং ভাগশেষ না থাকে তখন ঐ সংখ্যা টা না দেখাইয়া দেখাব bar 
+// ১ থেকে ৫০ পজন্ত output দেখাইতে গিয়ে যদি কোন ১ টা সংখ্যা  5 and 3 উভয়  দিয়ে ভাগ জায় এবং ভাগশেষ না থাকে তখন ঐ সংখ্যা টা না দেখাইয়া দেখাব foobar 
+
+// for(let i =1; i<=50; i++ ){
+//     console.log(i);
+// }
+// for(let i =1; i<=50; i++ ){
+//     if (i % 3 === 0 && i % 5 === 0){
+//         console.log('foobar');
+//     }
+//     else if(i % 3 === 0){
+//         console.log('foo');
+//     }
+//     else if(i % 5 === 0){
+//         console.log('bar');
+//     }
+//     else{
+//         console.log(i);
+//     }
+// }
+
+
+
+
+
+
+
+
+// কোন কিছু fixed থাকা  = ===============================================================
+// এবং change হওয়া = যে গুলো change হবে ঐ গুলো মানুষ থেকে নিয়ে input করে check করা 
+// অনেক গুলো জিনিস কয়েক টা করে কিনতে চাই ,কয়েক টা করে কিনার পর সব গুলো টোটাল কত টাকা আসবে তা বের করা 
+ /* 
+ fixed: per item wood requirments
+ 1. chair --> 3 cft
+ 2. table  --> 10 cft
+ 1. bed --> 50 cft
+ vary: quantity
+ */
+
+/* function woodCalculator( chairQuantity, tableQuantity, bedQuantity){
+    const perChairWood = 3;
+    const perTableWood = 10;
+    const perBedwood = 50;
+
+    const chairWood = chairQuantity * perChairWood;
+    const tableWood = tableQuantity * perTableWood;
+    const bedWood  = bedQuantity * perBedwood;
+
+    // console.log(chairQuantity, tableQuantity, bedQuantity);
+    const totalWood = chairWood + tableWood+ bedWood; 
+    return totalWood;
+}
+
+const totalWood = woodCalculator(2, 2, 5);
+console.log(totalWood); */
+
+
+
+
+
+
+// অনেক গুলো Array থেকে যে কোন ১ টার মান  বের করা ==============================================
+
+/* const phones = [ 
+    { name: 'samsung', camera: 12, storage: '32gb', prise: 36000, color: 'silver'},
+    { name: 'reami', camera: 25, storage: '64gb', prise: 22000, color: 'red'},
+    { name: 'realme', camera: 32, storage: '86gb', prise: 18500, color: 'green'},
+    { name: 'iphone', camera: 35, storage: '160gb', prise: 86000, color: 'white'},
+    { name: 'walton', camera: 10, storage: '16gb', prise: 8000, color: 'silver'},
+    { name: 'oppo', camera: 16, storage: '32gb', prise: 16500, color: 'gray'}
+]
+
+// এখন কাজ হল কম দামি মুবাইল টাকে বের করা
+function cheapestPhone(phones){
+    let cheapestLow = phones[0];
+    for (let i = 0; i < phones.length; i++){
+        const phone = phones[i];
+        // console.log(phone);
+        if(phone.prise < cheapestLow.prise){
+            cheapestLow = phone;
+        }
+    }
+    return cheapestLow;
+}
+
+const mySelection = cheapestPhone(phones);
+console.log(mySelection);
+ */
+
+
+
+
+
+// অনেক গুলো সংখার যোগ ফল বের করা =============================================
+
+/* const shoppingCart = [
+    {name: 'shoe', prise: 1200},
+    {name: 'shirt', prise: 2200},
+    {name: 'pant', prise: 3700},
+    {name: 'balt', prise: 600}
+];
+
+function totalCost(products){
+    let totalSum = 0;
+    for(let i = 0; i < products.length; i++){
+        const product = products[i];
+        totalSum = totalSum + product.prise;
+        console.log(product);
+    }
+    return totalSum;
+}
+
+const expens = totalCost(shoppingCart)
+console.log(expens); */
+
+
+
+
+
+// অনেক গুলো সংখার যোগ ফল বের করা =============================================
+
+/* const shoppingCart = [
+    {name: 'shoe', prise: 1200, quantity: 2},
+    {name: 'shirt', prise: 2200, quantity: 5},
+    {name: 'pant', prise: 3700, quantity: 4},
+    {name: 'balt', prise: 600, quantity: 3},
+];
+
+function totalCost(products){
+    let totalSum = 0;
+    for(let i = 0; i < products.length; i++){
+        const product = products[i];
+        const productTotal = product.prise * product.quantity;
+        totalSum = totalSum + productTotal;
+        console.log(product);
+    }
+    return totalSum;
+}
+
+const expens = totalCost(shoppingCart)
+console.log(expens)
+ */
+
+
+
+
+/* 
+1. দরেন আপনি যদি ২০০ টা টিকিট কিনেন প্রথম ১০০ টা ১০০ টাকা করে দিবেন 
+2. বাকি গুলো প্রতিটা ৯০ টাকা করা দিবেন 
+    আর যদি
+3. ২০০ এর উপরে টিকিট কিনেন সেগুলো প্রতিটা ৭০ টাকা করে দিবেন 
+*/
+// 22-8 number 
+
+// function ticketPrice(ticketQunatity){
+// const first100Ticket = 100; /* প্রথম ১০০ টা ১০০ টাকা করে */
+// const second100Ticket = 90; /* প্রথম ১০০ টা ৯০ টাকা করে */
+// const restTicket = 70;      /* অতিরিক্ত টিকিটের  গুলো ৭০ টাকা করে */
+
+// if (ticketQunatity <= 100){ /* শর্ত দিলাম প্রথম ১০০ টা ১০০ টাকা করে */
+//     const price = ticketQunatity * first100Ticket; /* প্রথম ১০০ টা টিকিট গুন প্রতেক টা টিকিট এর দাম ১০০ টাকা করে */
+//     return price;
+// }
+// else if (ticketQunatity <= 200){ /* শর্ত দিলাম  ২০০ টা টিকিট, প্রথম ১০০ টা ১০০ টাকা করে, অতিরিক্ত টিকিটের  গুলো ৭০ টাকা করে */
+//     const first100Price = 100 * first100Ticket; /* প্রথম ১০০ টা টিকিট গুন প্রতেক টা টিকিট এর দাম ১০০ টাকা করে বের করলাম*/
+//     const restTickerQuantity = ticketQunatity - 100; /* প্রথম ১০০ টা  বের করার পর বাকি টিকিটের সংখ্যা বের করলাম , */
+//     const secondTickerPrice = restTickerQuantity * second100Ticket; /*  বাকি টিকিটের সংখ্যা এর সাথে second100Ticket ৯০ টাকা করে গুন করলাম  */
+//     const totalTicketPrice = secondTickerPrice + first100Price; /* প্রথম ১০০ টা এবং অতিরিক্ত টিকিটের  গুলো  যোগ করলাম  */
+//     return totalTicketPrice; /*undefined না দেখানোর জন্য return করলাম totalTicketPrice কে  */
+//     //console.log( first100Price, restTickerQuantity, secondTickerPrice, totalTicketPrice);
+// }
+// else{ /* else য়ে এসে বলল্ললা টিকিট যদি ২০০ এর উপরে হয় তাহলে , প্রথম ১০০ টা ১০০ টাকা করে, second100Ticket গুলো ৯০ টাকা করে, অতিরিক্ত টিকিটের  গুলো ৭০ টাকা করে */
+//     const first100Price = 100 * first100Ticket; /* প্রথম ১০০ টা টিকিট গুন প্রতেক টা টিকিট এর দাম ১০০ টাকা করে  বের করলাম*/
+//     const secondTickerPrice = 100 * second100Ticket;  /* second100Ticket টিকিট গুলোর প্রতেক টা টিকিট এর দাম ৯০ টাকা করে  বের করলাম*/
+//     const restTickerQuantity = ticketQunatity - 200; /* প্রথম ২০০ টা  বের করার পর বাকি টিকিটের সংখ্যা বের করলাম , */
+//     const restTicketPrice = restTickerQuantity * restTicket; /*  বাকি টিকিটের সংখ্যা এর সাথে restTicket ৭০ টাকা করে গুন করলাম  */
+//     const totalCost = first100Price + secondTickerPrice + restTicketPrice; /* প্রথম ২০০ টা টিকিট এবং second100Ticket টিকিট গুলো এবং অতিরিক্ত টিকিটের  গুলো  যোগ করলাম  */
+//     console.log(first100Price, secondTickerPrice, restTicketPrice, totalCost); /* সব গুলোর output দেখার জন্য console.log করলাম */
+
+//     /* 
+//     PS C:\javascript> node main.js
+//     10000 9000 3500 22500
+//     undefined [ এখানে  undefined আসার কারন হল function য়ে সব সময় return valu দিতে হয় আর নয় undefined 
+//     দেখাবে ,যা আমরা এখানে দেখ্তে পাচ্ছি , এটা solve করার জন্য return করে দিব totalCost কে । ]
+//     PS C:\javascript>
+//     */
+//     // return totalCost;
+     
+// }
+
+
+
+// }
+
+// const totalTicket = ticketPrice(250);
+// console.log(totalTicket);
+
+
+
+//security check =====================================================================
+
+
+/* function add(num1, num2){
+    if(typeof num1 !== 'number' || typeof num2 !== 'number' ){
+        return 'Please enter a number';
+    }
+    return num1 + num2
+}
+
+const result = add( 12, '45');
+// console.log(result);
+
+function multiply(num1, num2){
+return num1 * num2;
+}
+
+const output = multiply( 12,45);
+console.log(output) */
 
 
 
