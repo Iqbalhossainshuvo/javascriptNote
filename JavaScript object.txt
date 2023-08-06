@@ -1,0 +1,5 @@
+https://www.w3schools.com/js/js_objects.asp
+https://www.javatpoint.com/javascript-objects
+https://www.programiz.com/javascript/object
+https://www.youtube.com/watch?v=EoJeoUT7NMQ&list=PL98qAXLA6afsQO62IkkidTHXmuL6k2rR6
+https://www.i-programmer.info/programming/javascript/11486-just-javascript-function-object-self-reference.html
